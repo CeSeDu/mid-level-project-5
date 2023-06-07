@@ -1,46 +1,61 @@
-*{
+* {
   padding: 0;
   margin: 0px;
 }
-.language__img{
+
+.language__img {
   width: 20px;
 }
-.btn__language__section,.text__size{
-    font-size: 13px;
+
+.btn__language__section,
+.text__size {
+  font-size: 13px;
 }
-.nav__middle,.header__background__color{
+
+.nav__middle,
+.header__background__color {
   background-color: #f8f9fa;
 }
-.search__container{
-border: 3px solid;
-max-height: 40px;
+
+.search__container {
+  border: 3px solid;
+  max-height: 40px;
 }
+
 ::-webkit-input-placeholder {
   font-size: 12px;
 }
-input{
+
+input {
   outline: 0;
 }
-.dropdown-toggle{
+
+.dropdown-toggle {
   outline: 0;
   border: 0px;
 }
-.phone__text__color:hover{
-color: red;
+
+.phone__text__color:hover {
+  color: red;
 }
-small{
+
+small {
   font-size: 11px;
 }
-.phone__box{
+
+.phone__box {
   max-width: 40px;
   max-height: 40px;
 }
-.slide__pointer{
+
+.slide__pointer {
   cursor: pointer;
 }
-.bg__red:hover{
+
+.bg__red:hover {
   background-color: red;
 }
+
 .card__img2 {
   display: none;
 }
@@ -50,42 +65,54 @@ small{
   width: 100%;
 
 }
-.card__img:hover .card__img1{
-display: none;
-transition: all .7s ease-in-out;
--webkit-transition: all .7s ease-in-out; ;
+
+.card__img:hover .card__img1 {
+  display: none;
+  transition: all .7s ease-in-out;
+  -webkit-transition: all .7s ease-in-out;
+  ;
 }
-.card__img:hover  .card__img2 {
+
+.card__img:hover .card__img2 {
   display: block;
   transition: all .7s ease-in-out;
-  -webkit-transition: all .7s ease-in-out; ;
+  -webkit-transition: all .7s ease-in-out;
+  ;
 }
+
 .full-background-banner {
   background: url(http://magento2.magentech.com/themes/sm_marketnew/pub/static/version1675843326/frontend/Sm/market/en_US/images/bg_banner.png) repeat-x left top/100% 100%;
 
 
 }
-.banner__img{
+
+.banner__img {
   -webkit-transition: all .7s ease-in-out;
   overflow: hidden;
 }
-.banner__img:hover{
+
+.banner__img:hover {
   transform: scale(1.1);
-  -webkit-transition: all .7s ease-in-out; 
+  -webkit-transition: all .7s ease-in-out;
 }
-.banner__img__effect:hover{
+
+.banner__img__effect:hover {
   transform: scale(1.1);
   -webkit-transition: all .7s ease-in-out;
   opacity: 0.6;
 }
-.banner__img__effect{
+
+.banner__img__effect {
   width: 100%;
 }
-.carosuel__bg__secondary{
+
+.carosuel__bg__secondary {
   background-color: #f2f2f2;
-  margin-top:10%;
+  margin-top: 10%;
 }
-.carousel-control-next,.carousel-control-prev{
+
+.carousel-control-next,
+.carousel-control-prev {
   top: -30px;
   right: 10px;
   width: 20px;
@@ -93,88 +120,112 @@ transition: all .7s ease-in-out;
   position: absolute;
 
 }
-.carousel-control-prev{
-left: 90%;
+
+.carousel-control-prev {
+  left: 90%;
 }
-.nav__hover__menu{
+
+.nav__hover__menu {
   width: 900px;
   display: none;
-  position:absolute;
+  position: absolute;
   top: 20px;
 }
-.nav__hover__button{
+
+.nav__hover__button {
   z-index: 1;
 }
 
-.nav__hover__button:hover  .nav__hover__menu{
-  display:block;
-  background:white ;
+.nav__hover__button:hover .nav__hover__menu {
+  display: block;
+  background: white;
 
 }
-.nav__hover__menu:hover{
+
+.nav__hover__menu:hover {
   display: block;
-} 
+}
 
 
-.nav__item:hover{
+.nav__item:hover {
   color: red;
   -webkit-transition: all .3s ease-in-out;
   cursor: pointer;
 }
-.nav__item{
+
+.nav__item {
   color: black;
 }
-.logo__banner{
+
+.logo__banner {
   width: 100%;
 }
-.navTop__item{
+
+.navTop__item {
   color: #ffffff94;
 }
-.navTop__item:hover{
-color: white;
+
+.navTop__item:hover {
+  color: white;
 }
-.shop__box::after{
+
+.shop__box::after {
   content: " You have no items in your shopping cart ";
   position: absolute;
   padding: 30px;
   font-size: 12px;
   color: black;
   top: 50px;
-margin: 0px;
-margin-left: -200px;
+  margin: 0px;
+  margin-left: -200px;
   width: 400px;
   height: 100px;
   background-color: white;
   display: none;
 }
-.shop__box:hover:after{
+
+.shop__box:hover:after {
   display: block;
 }
-.shop__box:hover:after:hover{
+
+.shop__box:hover:after:hover {
   display: none;
 }
-.nav__hover__item{
+
+.nav__hover__item {
   font-size: 12px;
 }
-.nav__hover__item:hover{
+
+.nav__hover__item:hover {
   color: red;
 }
-.shoe__card::after{
+
+.shoe__card::after {
   content: "QUICK WIEV ";
   position: absolute;
-  margin-top: 210px;
+  margin-top: 195px;
   margin-left: 20px;
   background: red;
   padding: 10px;
   width: 100%;
   text-align: center;
-font-size: 12px;
+  font-size: 12px;
   color: white;
   display: none;
 }
-.shoe__card{
+
+.shoe__card {
   cursor: pointer;
 }
-.shoe__card:hover::after{
+
+.shoe__card:hover::after {
   display: block;
+}
+
+.footer__item {
+  font-size: 14px;
+}
+
+.footer__item:hover {
+  color: red;
 }
