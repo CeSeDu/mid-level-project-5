@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -151,10 +151,12 @@ small {
   color: red;
   -webkit-transition: all .3s ease-in-out;
   cursor: pointer;
+
 }
 
 .nav__item {
   color: black;
+  font-size: 13px;
 }
 
 .logo__banner {
@@ -196,7 +198,7 @@ small {
   font-size: 12px;
 }
 
-.nav__hover__item:hover {
+.nav__hover__item:hover ,.hover__red:hover{
   color: red;
 }
 
@@ -216,6 +218,7 @@ small {
 
 .shoe__card {
   cursor: pointer;
+
 }
 
 .shoe__card:hover::after {
@@ -228,4 +231,11 @@ small {
 
 .footer__item:hover {
   color: red;
+}
+.bg__hover:hover{
+  border:1px solid red;
+  opacity: 0.6;
+}
+.cursor__pointer{
+  cursor: pointer;
 }
